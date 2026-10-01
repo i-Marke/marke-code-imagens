@@ -1,6 +1,29 @@
 {
   "itens": [
     {
+      "id": "versao-0.10.10",
+      "tipo": "novidade",
+      "data": "2026-10-01",
+      "versaoMinima": "0.10.10",
+      "titulo": "O que há de novo na 0.10.10",
+      "resumo": "Página de Atalhos com animações e o botão Atualizar que instala a versão nova ali mesmo.",
+      "conteudo": [
+        {
+          "texto": "**Atalhos**: na engrenagem do painel, todos os atalhos do editor, cada um com uma animação do que faz."
+        },
+        {
+          "texto": "**Atualizar pelo sino**: quando sair versão nova, o botão Atualizar instala ali mesmo, com a barra mostrando o andamento. Depois é só recarregar."
+        },
+        {
+          "texto": "**Ícone novo**: o coelho de óculos, que agora aparece também no fundo branco da loja."
+        }
+      ],
+      "acao": {
+        "rotulo": "Ver os atalhos",
+        "comando": "marke.atalhos"
+      }
+    },
+    {
       "id": "versao-0.10.9",
       "tipo": "novidade",
       "data": "2026-10-01",
