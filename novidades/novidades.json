@@ -1,0 +1,48 @@
+{
+  "itens": [
+    {
+      "id": "versao-0.10.8",
+      "tipo": "novidade",
+      "data": "2026-10-01",
+      "versaoMinima": "0.10.8",
+      "titulo": "O que há de novo na 0.10.8",
+      "resumo": "Sino com notificações, engrenagem com as opções e o Mini Card de volta ao menu /.",
+      "conteudo": [
+        { "texto": "**Sino de notificações**: novidades, dicas e o botão **Atualizar** num lugar só. A bolinha vermelha avisa quando chega algo novo." },
+        { "texto": "**Engrenagem**: layout, abrir .md direto no Marke Code, tutorial e configurações agora ficam na engrenagem, ao lado do sino." },
+        { "texto": "**Mini Card**: voltou ao menu `/`, com o mesmo visual do Card. Veja a dica logo abaixo." }
+      ]
+    },
+    {
+      "id": "dica-mini-card",
+      "tipo": "dica",
+      "data": "2026-10-01",
+      "versaoMinima": "0.10.8",
+      "titulo": "Mini Card: um destaque com ícone",
+      "resumo": "Digite / e escolha Mini Card para destacar uma frase com ícone ou memoji.",
+      "banner": "novidades/mini-card-banner.png",
+      "conteudo": [
+        { "imagem": "novidades/mini-card.gif", "legenda": "Do `/mini` ao card pronto." },
+        { "atalho": "/", "descricao": "Abre o menu de blocos. Digite **mini** e tecle Enter." },
+        { "texto": "Escreva a frase, escolha um ícone ou memoji e clique em **Inserir**. Numa linha vazia, o card ocupa o lugar dela." },
+        { "texto": "O detalhe vai logo abaixo da frase, dentro do próprio card." }
+      ]
+    },
+    {
+      "id": "dica-atalhos",
+      "tipo": "dica",
+      "data": "2026-10-01",
+      "titulo": "Atalhos que poupam cliques",
+      "resumo": "Ícones, card, títulos e check list direto do teclado.",
+      "conteudo": [
+        { "atalho": ">.", "descricao": "Ícones e memojis no meio do texto" },
+        { "atalho": ">>.", "descricao": "Card com fundo" },
+        { "atalho": ">1", "descricao": "Título (de `>1` a `>6`)" },
+        { "atalho": ">k", "descricao": "Check list" },
+        { "atalho": ">p", "descricao": "Volta para parágrafo" },
+        { "atalho": ">b", "descricao": "Negrito" },
+        { "atalho": "@", "descricao": "Referencia outro arquivo do projeto" }
+      ]
+    }
+  ]
+}
