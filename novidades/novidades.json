@@ -1,6 +1,83 @@
 {
   "itens": [
     {
+      "id": "versao-0.10.9",
+      "tipo": "novidade",
+      "data": "2026-10-01",
+      "versaoMinima": "0.10.9",
+      "titulo": "O que há de novo na 0.10.9",
+      "resumo": "Link com >l e prévia ao passar o mouse, itálico com >i, menus presos ao texto e os atalhos do Obsidian.",
+      "conteudo": [
+        {
+          "atalho": ">l",
+          "descricao": "Link para arquivo, pasta ou site. O `>l` some e o menu abre na hora; comece com `https://` ou `www.` para site"
+        },
+        {
+          "texto": "**Prévia do link**: pare o mouse sobre um link e veja o começo do arquivo, o que tem na pasta ou o título do site."
+        },
+        {
+          "atalho": ">i",
+          "descricao": "Itálico, como o `>b` do negrito"
+        },
+        {
+          "texto": "**O @ voltou a ser texto**: e-mail e @usuário ficam como você escreveu, sem abrir menu."
+        },
+        {
+          "texto": "**Menus presos ao texto**: o `/`, o `>l` e o `[[` abrem logo abaixo do que você digitou e acompanham a linha."
+        },
+        {
+          "texto": "**Busca no projeto certo**: o menu de link mostra os arquivos do seu projeto, sem as pastas de build, e o nome igual ao digitado vem primeiro."
+        },
+        {
+          "texto": "**Tabela** com canto de 8 px, como o Card e o bloco de código."
+        },
+        {
+          "texto": "**Atalhos do Obsidian**: veja a dica logo abaixo."
+        }
+      ]
+    },
+    {
+      "id": "dica-obsidian",
+      "tipo": "dica",
+      "data": "2026-10-01",
+      "versaoMinima": "0.10.9",
+      "titulo": "Veio do Obsidian? Seus atalhos valem aqui",
+      "resumo": "Títulos com #, listas, check list, bloco de código e [[ para ligar arquivos.",
+      "conteudo": [
+        {
+          "atalho": "#",
+          "descricao": "De `#` a `######` + espaço: títulos H1 a H6, como `>1` a `>6`"
+        },
+        {
+          "atalho": "-",
+          "descricao": "Lista com marcadores (`*` e `+` também)"
+        },
+        {
+          "atalho": "1.",
+          "descricao": "Lista numerada"
+        },
+        {
+          "atalho": "- [ ]",
+          "descricao": "Check list (`- [x]` já entra marcada)"
+        },
+        {
+          "atalho": ">",
+          "descricao": "Citação"
+        },
+        {
+          "atalho": "```",
+          "descricao": "+ Enter: bloco de código. Com ```js já entra na linguagem certa"
+        },
+        {
+          "atalho": "[[",
+          "descricao": "Liga outro arquivo do projeto, pelo mesmo menu do `>l`"
+        },
+        {
+          "texto": "Negrito (`**`), itálico (`*`), riscado (`~~`) e código (crase) funcionam enquanto você escreve. O `==destaque==` do Obsidian fica como texto: para destacar, use a cor de fundo da barra de formatação."
+        }
+      ]
+    },
+    {
       "id": "versao-0.10.8",
       "tipo": "novidade",
       "data": "2026-10-01",
@@ -8,9 +85,15 @@
       "titulo": "O que há de novo na 0.10.8",
       "resumo": "Sino com notificações, engrenagem com as opções e o Mini Card de volta ao menu /.",
       "conteudo": [
-        { "texto": "**Sino de notificações**: novidades, dicas e o botão **Atualizar** num lugar só. A bolinha vermelha avisa quando chega algo novo." },
-        { "texto": "**Engrenagem**: layout, abrir .md direto no Marke Code, tutorial e configurações agora ficam na engrenagem, ao lado do sino." },
-        { "texto": "**Mini Card**: voltou ao menu `/`, com o mesmo visual do Card. Veja a dica logo abaixo." }
+        {
+          "texto": "**Sino de notificações**: novidades, dicas e o botão **Atualizar** num lugar só. A bolinha vermelha avisa quando chega algo novo."
+        },
+        {
+          "texto": "**Engrenagem**: layout, abrir .md direto no Marke Code, tutorial e configurações agora ficam na engrenagem, ao lado do sino."
+        },
+        {
+          "texto": "**Mini Card**: voltou ao menu `/`, com o mesmo visual do Card. Veja a dica logo abaixo."
+        }
       ]
     },
     {
@@ -22,11 +105,67 @@
       "resumo": "Digite / e escolha Mini Card para destacar uma frase com ícone ou memoji.",
       "banner": "novidades/mini-card-banner.png",
       "conteudo": [
-        { "imagem": "novidades/mini-card.gif", "legenda": "Do `/mini` ao card pronto." },
-        { "atalho": "/", "descricao": "Abre o menu de blocos. Digite **mini** e tecle Enter." },
-        { "texto": "Escreva a frase, escolha um ícone ou memoji e clique em **Inserir**. Numa linha vazia, o card ocupa o lugar dela." },
-        { "texto": "O detalhe vai logo abaixo da frase, dentro do próprio card." }
+        {
+          "imagem": "novidades/mini-card.gif",
+          "legenda": "Do `/mini` ao card pronto."
+        },
+        {
+          "atalho": "/",
+          "descricao": "Abre o menu de blocos. Digite **mini** e tecle Enter."
+        },
+        {
+          "texto": "Escreva a frase, escolha um ícone ou memoji e clique em **Inserir**. Numa linha vazia, o card ocupa o lugar dela."
+        },
+        {
+          "texto": "O detalhe vai logo abaixo da frase, dentro do próprio card."
+        }
       ]
+    },
+    {
+      "id": "dica-atalhos-2",
+      "tipo": "dica",
+      "data": "2026-10-01",
+      "titulo": "Atalhos que poupam cliques",
+      "resumo": "Ícones, card, títulos, link e check list direto do teclado.",
+      "conteudo": [
+        {
+          "atalho": ">.",
+          "descricao": "Ícones e memojis no meio do texto"
+        },
+        {
+          "atalho": ">>.",
+          "descricao": "Card com fundo"
+        },
+        {
+          "atalho": ">1",
+          "descricao": "Título (de `>1` a `>6`)"
+        },
+        {
+          "atalho": ">k",
+          "descricao": "Check list"
+        },
+        {
+          "atalho": ">l",
+          "descricao": "Link para arquivo, pasta ou site"
+        },
+        {
+          "atalho": ">b",
+          "descricao": "Negrito"
+        },
+        {
+          "atalho": ">i",
+          "descricao": "Itálico"
+        },
+        {
+          "atalho": ">c",
+          "descricao": "Bloco de código"
+        },
+        {
+          "atalho": ">p",
+          "descricao": "Volta para parágrafo"
+        }
+      ],
+      "versaoMinima": "0.10.9"
     },
     {
       "id": "dica-atalhos",
@@ -35,14 +174,36 @@
       "titulo": "Atalhos que poupam cliques",
       "resumo": "Ícones, card, títulos e check list direto do teclado.",
       "conteudo": [
-        { "atalho": ">.", "descricao": "Ícones e memojis no meio do texto" },
-        { "atalho": ">>.", "descricao": "Card com fundo" },
-        { "atalho": ">1", "descricao": "Título (de `>1` a `>6`)" },
-        { "atalho": ">k", "descricao": "Check list" },
-        { "atalho": ">p", "descricao": "Volta para parágrafo" },
-        { "atalho": ">b", "descricao": "Negrito" },
-        { "atalho": "@", "descricao": "Referencia outro arquivo do projeto" }
-      ]
+        {
+          "atalho": ">.",
+          "descricao": "Ícones e memojis no meio do texto"
+        },
+        {
+          "atalho": ">>.",
+          "descricao": "Card com fundo"
+        },
+        {
+          "atalho": ">1",
+          "descricao": "Título (de `>1` a `>6`)"
+        },
+        {
+          "atalho": ">k",
+          "descricao": "Check list"
+        },
+        {
+          "atalho": ">p",
+          "descricao": "Volta para parágrafo"
+        },
+        {
+          "atalho": ">b",
+          "descricao": "Negrito"
+        },
+        {
+          "atalho": "@",
+          "descricao": "Referencia outro arquivo do projeto"
+        }
+      ],
+      "versaoMaxima": "0.10.8"
     }
   ]
 }
