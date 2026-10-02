@@ -1,6 +1,87 @@
 {
   "itens": [
     {
+      "id": "versao-0.11.0",
+      "tipo": "novidade",
+      "data": "2026-10-02",
+      "versaoMinima": "0.11.0",
+      "titulo": "O que há de novo na 0.11.0",
+      "resumo": "O Marke Code agora fala inglês, português, espanhol, alemão e chinês. Escolha o idioma na engrenagem do painel Todas.",
+      "conteudo": [
+        {
+          "texto": "**Cinco idiomas**: inglês, português do Brasil, espanhol, alemão e chinês simplificado. O editor, o painel, os menus e os avisos mudam juntos."
+        },
+        {
+          "texto": "**Onde trocar**: na engrenagem do painel **Todas**, em **Idioma**, ou em Configurações, na opção `marke.idioma`."
+        },
+        {
+          "texto": "**Seus arquivos não mudam**: as marcas de prazo, status e decisão são as mesmas em qualquer idioma."
+        }
+      ],
+      "idiomas": {
+        "en": {
+          "titulo": "What's new in 0.11.0",
+          "resumo": "Marke Code now speaks English, Portuguese, Spanish, German and Chinese. Pick your language from the gear in the All panel.",
+          "conteudo": [
+            {
+              "texto": "**Five languages**: English, Brazilian Portuguese, Spanish, German and Simplified Chinese. The editor, the panel, the menus and the messages all switch together."
+            },
+            {
+              "texto": "**Where to change it**: the gear in the **All** panel, under **Language**, or Settings, under `marke.idioma`."
+            },
+            {
+              "texto": "**Your files don't change**: the deadline, status and decision marks are the same in every language."
+            }
+          ]
+        },
+        "es": {
+          "titulo": "Novedades de la 0.11.0",
+          "resumo": "Marke Code ahora habla inglés, portugués, español, alemán y chino. Elige el idioma en el engranaje del panel Todas.",
+          "conteudo": [
+            {
+              "texto": "**Cinco idiomas**: inglés, portugués de Brasil, español, alemán y chino simplificado. El editor, el panel, los menús y los avisos cambian juntos."
+            },
+            {
+              "texto": "**Dónde cambiarlo**: en el engranaje del panel **Todas**, en **Idioma**, o en Configuración, en la opción `marke.idioma`."
+            },
+            {
+              "texto": "**Tus archivos no cambian**: las marcas de plazo, estado y decisión son las mismas en cualquier idioma."
+            }
+          ]
+        },
+        "de": {
+          "titulo": "Neu in 0.11.0",
+          "resumo": "Marke Code spricht jetzt Englisch, Portugiesisch, Spanisch, Deutsch und Chinesisch. Wähle die Sprache über das Zahnrad im Panel Alle.",
+          "conteudo": [
+            {
+              "texto": "**Fünf Sprachen**: Englisch, brasilianisches Portugiesisch, Spanisch, Deutsch und vereinfachtes Chinesisch. Editor, Panel, Menüs und Meldungen wechseln gemeinsam."
+            },
+            {
+              "texto": "**Wo du sie änderst**: über das Zahnrad im Panel **Alle**, unter **Sprache**, oder in den Einstellungen unter `marke.idioma`."
+            },
+            {
+              "texto": "**Deine Dateien ändern sich nicht**: Die Markierungen für Frist, Status und Entscheidung sind in jeder Sprache gleich."
+            }
+          ]
+        },
+        "zh-CN": {
+          "titulo": "0.11.0 新功能",
+          "resumo": "Marke Code 现在支持英语、葡萄牙语、西班牙语、德语和中文。在“全部”面板的齿轮菜单中选择语言。",
+          "conteudo": [
+            {
+              "texto": "**五种语言**：英语、巴西葡萄牙语、西班牙语、德语和简体中文。编辑器、面板、菜单和提示会一起切换。"
+            },
+            {
+              "texto": "**在哪里更改**：**全部** 面板的齿轮菜单中的 **语言**，或在设置中的 `marke.idioma` 选项。"
+            },
+            {
+              "texto": "**你的文件不会改变**：截止时间、状态和决策标记在任何语言下都一样。"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "versao-0.10.10",
       "tipo": "novidade",
       "data": "2026-10-01",
@@ -21,6 +102,46 @@
       "acao": {
         "rotulo": "Ver os atalhos",
         "comando": "marke.atalhos"
+      },
+      "idiomas": {
+        "en": {
+          "titulo": "What's new in 0.10.10",
+          "resumo": "A Shortcuts page with animations, and the Update button that installs the new version right there.",
+          "conteudo": [
+            {
+              "texto": "**Shortcuts**: under the gear in the panel, every editor shortcut, each with an animation of what it does."
+            },
+            {
+              "texto": "**Update from the bell**: when a new version is out, the Update button installs it right there, with a bar showing the progress. Then just reload."
+            },
+            {
+              "texto": "**New icon**: the rabbit with glasses, which now also shows on the white background of the store."
+            }
+          ],
+          "acao": {
+            "rotulo": "See the shortcuts",
+            "comando": "marke.atalhos"
+          }
+        },
+        "zh-CN": {
+          "titulo": "0.10.10 新功能",
+          "resumo": "带动画的快捷键页面，以及可直接安装新版本的“更新”按钮。",
+          "conteudo": [
+            {
+              "texto": "**快捷键**：在面板的齿轮菜单中，列出编辑器的所有快捷键，每个都配有演示动画。"
+            },
+            {
+              "texto": "**通过铃铛更新**：有新版本时，“更新”按钮会直接安装，并用进度条显示进度。之后重新加载即可。"
+            },
+            {
+              "texto": "**新图标**：戴眼镜的兔子，现在在商店的白色背景上也能看到。"
+            }
+          ],
+          "acao": {
+            "rotulo": "查看快捷键",
+            "comando": "marke.atalhos"
+          }
+        }
       }
     },
     {
@@ -57,7 +178,73 @@
         {
           "texto": "**Atalhos do Obsidian**: veja a dica logo abaixo."
         }
-      ]
+      ],
+      "idiomas": {
+        "en": {
+          "titulo": "What's new in 0.10.9",
+          "resumo": "Links with >l and a preview on hover, italics with >i, menus that stay with the text, and Obsidian shortcuts.",
+          "conteudo": [
+            {
+              "atalho": ">l",
+              "descricao": "Link to a file, folder or website. The `>l` disappears and the menu opens right away; start with `https://` or `www.` for a website"
+            },
+            {
+              "texto": "**Link preview**: rest the mouse on a link to see the start of the file, what is in the folder or the title of the site."
+            },
+            {
+              "atalho": ">i",
+              "descricao": "Italic, like `>b` for bold"
+            },
+            {
+              "texto": "**@ is plain text again**: emails and @usernames stay as you wrote them, without opening a menu."
+            },
+            {
+              "texto": "**Menus that stay with the text**: `/`, `>l` and `[[` open right below what you typed and follow the line."
+            },
+            {
+              "texto": "**Search in the right project**: the link menu lists the files in your project, without build folders, and an exact name match comes first."
+            },
+            {
+              "texto": "**Table** with 8 px corners, like the Card and the code block."
+            },
+            {
+              "texto": "**Obsidian shortcuts**: see the tip right below."
+            }
+          ]
+        },
+        "zh-CN": {
+          "titulo": "0.10.9 新功能",
+          "resumo": "用 >l 插入链接并在悬停时预览，用 >i 设置斜体，菜单跟随文字，以及 Obsidian 快捷键。",
+          "conteudo": [
+            {
+              "atalho": ">l",
+              "descricao": "链接到文件、文件夹或网站。`>l` 会消失并立即打开菜单；网站请以 `https://` 或 `www.` 开头"
+            },
+            {
+              "texto": "**链接预览**：将鼠标停在链接上，即可看到文件开头、文件夹内容或网站标题。"
+            },
+            {
+              "atalho": ">i",
+              "descricao": "斜体，就像粗体用 `>b` 一样"
+            },
+            {
+              "texto": "**@ 恢复为普通文字**：电子邮件和 @用户名 保持原样，不会打开菜单。"
+            },
+            {
+              "texto": "**菜单跟随文字**：`/`、`>l` 和 `[[` 会在你输入的内容下方打开，并跟随这一行。"
+            },
+            {
+              "texto": "**在正确的项目中搜索**：链接菜单列出你项目中的文件，不包括构建文件夹，名称完全匹配的排在最前。"
+            },
+            {
+              "texto": "**表格** 使用 8 px 圆角，与卡片和代码块一致。"
+            },
+            {
+              "texto": "**Obsidian 快捷键**：见下方提示。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "dica-obsidian",
@@ -98,7 +285,83 @@
         {
           "texto": "Negrito (`**`), itálico (`*`), riscado (`~~`) e código (crase) funcionam enquanto você escreve. O `==destaque==` do Obsidian fica como texto: para destacar, use a cor de fundo da barra de formatação."
         }
-      ]
+      ],
+      "idiomas": {
+        "en": {
+          "titulo": "Coming from Obsidian? Your shortcuts work here",
+          "resumo": "Headings with #, lists, checklists, code blocks and [[ to link files.",
+          "conteudo": [
+            {
+              "atalho": "#",
+              "descricao": "`#` to `######` + space: headings H1 to H6, like `>1` to `>6`"
+            },
+            {
+              "atalho": "-",
+              "descricao": "Bulleted list (`*` and `+` too)"
+            },
+            {
+              "atalho": "1.",
+              "descricao": "Numbered list"
+            },
+            {
+              "atalho": "- [ ]",
+              "descricao": "Checklist (`- [x]` starts checked)"
+            },
+            {
+              "atalho": ">",
+              "descricao": "Quote"
+            },
+            {
+              "atalho": "```",
+              "descricao": "+ Enter: code block. With ```js it starts in the right language"
+            },
+            {
+              "atalho": "[[",
+              "descricao": "Links another file in the project, through the same menu as `>l`"
+            },
+            {
+              "texto": "Bold (`**`), italic (`*`), strikethrough (`~~`) and code (backtick) work as you type. Obsidian's `==highlight==` stays as text: to highlight, use the background color on the formatting toolbar."
+            }
+          ]
+        },
+        "zh-CN": {
+          "titulo": "从 Obsidian 过来？你的快捷键在这里也能用",
+          "resumo": "用 # 写标题，列表、清单、代码块，以及用 [[ 链接文件。",
+          "conteudo": [
+            {
+              "atalho": "#",
+              "descricao": "`#` 到 `######` + 空格：H1 到 H6 标题，等同于 `>1` 到 `>6`"
+            },
+            {
+              "atalho": "-",
+              "descricao": "项目符号列表（`*` 和 `+` 也可以）"
+            },
+            {
+              "atalho": "1.",
+              "descricao": "编号列表"
+            },
+            {
+              "atalho": "- [ ]",
+              "descricao": "清单（`- [x]` 直接为已勾选）"
+            },
+            {
+              "atalho": ">",
+              "descricao": "引用"
+            },
+            {
+              "atalho": "```",
+              "descricao": "+ 回车：代码块。输入 ```js 会直接使用对应语言"
+            },
+            {
+              "atalho": "[[",
+              "descricao": "链接项目中的另一个文件，使用与 `>l` 相同的菜单"
+            },
+            {
+              "texto": "粗体（`**`）、斜体（`*`）、删除线（`~~`）和代码（反引号）在输入时即生效。Obsidian 的 `==高亮==` 会保留为文字：如需高亮，请使用格式工具栏中的背景颜色。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "versao-0.10.8",
@@ -117,7 +380,39 @@
         {
           "texto": "**Mini Card**: voltou ao menu `/`, com o mesmo visual do Card. Veja a dica logo abaixo."
         }
-      ]
+      ],
+      "idiomas": {
+        "en": {
+          "titulo": "What's new in 0.10.8",
+          "resumo": "A notification bell, a gear with the options, and the Mini Card back in the / menu.",
+          "conteudo": [
+            {
+              "texto": "**Notification bell**: news, tips and the **Update** button in one place. The red dot tells you when something new arrives."
+            },
+            {
+              "texto": "**Gear**: layout, opening .md files in Marke Code, the tutorial and settings now live under the gear, next to the bell."
+            },
+            {
+              "texto": "**Mini Card**: back in the `/` menu, with the same look as the Card. See the tip right below."
+            }
+          ]
+        },
+        "zh-CN": {
+          "titulo": "0.10.8 新功能",
+          "resumo": "通知铃铛、包含选项的齿轮菜单，以及回到 / 菜单的 Mini Card。",
+          "conteudo": [
+            {
+              "texto": "**通知铃铛**：新功能、提示和 **更新** 按钮集中在一处。有新内容时会出现红点。"
+            },
+            {
+              "texto": "**齿轮菜单**：布局、直接用 Marke Code 打开 .md、教程和设置现在都在铃铛旁边的齿轮菜单中。"
+            },
+            {
+              "texto": "**Mini Card**：回到了 `/` 菜单，外观与卡片一致。见下方提示。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "dica-mini-card",
@@ -142,7 +437,49 @@
         {
           "texto": "O detalhe vai logo abaixo da frase, dentro do próprio card."
         }
-      ]
+      ],
+      "idiomas": {
+        "en": {
+          "titulo": "Mini Card: a highlight with an icon",
+          "resumo": "Type / and choose Mini Card to highlight a phrase with an icon or memoji.",
+          "conteudo": [
+            {
+              "imagem": "novidades/mini-card.gif",
+              "legenda": "From `/mini` to the finished card."
+            },
+            {
+              "atalho": "/",
+              "descricao": "Opens the block menu. Type **mini** and press Enter."
+            },
+            {
+              "texto": "Write the phrase, pick an icon or memoji and click **Insert**. On an empty line, the card takes its place."
+            },
+            {
+              "texto": "The detail goes right below the phrase, inside the card itself."
+            }
+          ]
+        },
+        "zh-CN": {
+          "titulo": "Mini Card：带图标的醒目块",
+          "resumo": "输入 / 并选择 Mini Card，用图标或 memoji 突出一句话。",
+          "conteudo": [
+            {
+              "imagem": "novidades/mini-card.gif",
+              "legenda": "从 `/mini` 到完成的卡片。"
+            },
+            {
+              "atalho": "/",
+              "descricao": "打开块菜单。输入 **mini** 并按回车。"
+            },
+            {
+              "texto": "写下这句话，选择一个图标或 memoji，然后点击 **插入**。在空行中，卡片会替换这一行。"
+            },
+            {
+              "texto": "细节写在这句话的下方，就在卡片里面。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "dica-atalhos-2",
@@ -188,7 +525,93 @@
           "descricao": "Volta para parágrafo"
         }
       ],
-      "versaoMinima": "0.10.9"
+      "versaoMinima": "0.10.9",
+      "idiomas": {
+        "en": {
+          "titulo": "Shortcuts that save clicks",
+          "resumo": "Icons, card, headings, links and checklists right from the keyboard.",
+          "conteudo": [
+            {
+              "atalho": ">.",
+              "descricao": "Icons and memojis in the middle of the text"
+            },
+            {
+              "atalho": ">>.",
+              "descricao": "Card with a background"
+            },
+            {
+              "atalho": ">1",
+              "descricao": "Heading (from `>1` to `>6`)"
+            },
+            {
+              "atalho": ">k",
+              "descricao": "Checklist"
+            },
+            {
+              "atalho": ">l",
+              "descricao": "Link to a file, folder or website"
+            },
+            {
+              "atalho": ">b",
+              "descricao": "Bold"
+            },
+            {
+              "atalho": ">i",
+              "descricao": "Italic"
+            },
+            {
+              "atalho": ">c",
+              "descricao": "Code block"
+            },
+            {
+              "atalho": ">p",
+              "descricao": "Back to paragraph"
+            }
+          ]
+        },
+        "zh-CN": {
+          "titulo": "省去点击的快捷键",
+          "resumo": "直接用键盘插入图标、卡片、标题、链接和清单。",
+          "conteudo": [
+            {
+              "atalho": ">.",
+              "descricao": "在文字中插入图标和 memoji"
+            },
+            {
+              "atalho": ">>.",
+              "descricao": "带背景的卡片"
+            },
+            {
+              "atalho": ">1",
+              "descricao": "标题（从 `>1` 到 `>6`）"
+            },
+            {
+              "atalho": ">k",
+              "descricao": "清单"
+            },
+            {
+              "atalho": ">l",
+              "descricao": "链接到文件、文件夹或网站"
+            },
+            {
+              "atalho": ">b",
+              "descricao": "粗体"
+            },
+            {
+              "atalho": ">i",
+              "descricao": "斜体"
+            },
+            {
+              "atalho": ">c",
+              "descricao": "代码块"
+            },
+            {
+              "atalho": ">p",
+              "descricao": "恢复为段落"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "dica-atalhos",
